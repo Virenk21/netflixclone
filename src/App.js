@@ -1,8 +1,11 @@
 import React from "react";
-import "./App.css";
 
 function App() {
-  return <div>Netflix Clone</div>;
+  return (
+    <>
+      <h1 className="text-white">Netflix C</h1>
+    </>
+  );
 }
 
 export default App;
