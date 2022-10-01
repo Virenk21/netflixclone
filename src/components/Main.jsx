@@ -16,11 +16,16 @@ const Main = () => {
     console.log(movie);
 
   return (
-    <div className='w-full h-[600px] text-white'>
-       <div className='w-full h-full'></div>
-      <img src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`} alt={movie?.title}/>
+    
+    <div className='w-full h-[900px] text-white'>
+       <div className='w-full h-full'>
+      <div className='absolute w-full h-[900px] bg-gradient-to-tl from-black'></div>
+       
       
+      <img className='w-full h-full object-cover'
+       src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`} alt={movie?.title}/>
       
+      </div>
       </div>
       
   )
