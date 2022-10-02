@@ -34,6 +34,7 @@ const Main = () => {
               Watch Later
         </button>
       </div>
+      <p>Released: {movie?.relaese_data}</p>
       </div>
       </div>
       </div>
