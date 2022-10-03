@@ -33,12 +33,12 @@ export function AuthContextProvider({ children }) {
       unsubscribe();
     };
   });
-  
+
     return (
-        <AuthContext.Provider value={{ signUp, user }}>
-            {children}
-        </AuthContext.Provider>
-    )
+      <AuthContext.Provider value={{ signUp, logIn, logOut, user }}>
+        {children}
+      </AuthContext.Provider>
+    );
 }
 
 export function UserAuth() {
